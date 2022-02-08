@@ -1,0 +1,1247 @@
+/*
+Theme Name: CCL Child
+Theme URI: http://fitwp.com/themes/constructent/
+Description: Construction & Building WordPress theme
+Author: Reset Media
+Author URI: https://www.resetmedia.ca/
+Template: ccl
+Description: CCL WordPress Theme Child
+Version: 0.1
+*/
+
+
+
+.ccl-cta-wrap{
+	margin-top: 60px;
+}
+.ccl-dropcap{
+	float: left;
+	font-size: 70px;
+	line-height: 62px;
+	padding: 4px 8px 0 3px;
+}
+blockquote{
+	font-family: Georgia;
+	font-style: italic;
+	margin-bottom: 32px;
+}
+
+body,
+.ccl-client-login,
+.fitsc-button,
+.ccl-services-list h6,
+.ccl-home-tagline h2,
+.fitsc-portfolio figcaption h3,
+.ccl-projects .entry-title,
+.ccl .featured-title .subtitle{
+	font-family: "adelle-sans";
+}
+h1, h2, h3, h4, h5, h6,
+.primary-nav .nav a{
+	font-family: "adelle";
+}
+
+a.scroll-top{
+	display: none !important;
+	visibility: hidden;
+	opacity: 0;
+}
+.ccl-link{
+	position: relative;
+	display: inline-block;
+}
+.ccl-link:before{
+	content: " ";
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	left: 0;
+	bottom: -3px;
+	background-color: transparent;
+	transition: all 200ms;
+}
+.ccl-link:hover:before{
+	background-color: #af2f2e;
+	transition: all 500ms;
+}
+.fitsc-heading.fitsc-heading-underline{
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+/**
+ * Header
+ */
+
+/* Topbar */
+.topbar{
+	min-height: 48px;
+	line-height: 48px;
+	font-weight: 400;
+}
+.topbar .textwidget{
+	font-size: 14px;
+}
+.ccl.custom-color-scheme .topbar{
+	background-color: #f8f9f9;
+	color: #888;
+	border-bottom: 1px solid #e9e9e9;
+}
+.contact-font-icon .contact-info,
+.contact-font-icon .contact-info i{
+	color: #888;
+	font-weight: 400;
+}
+.topbar .contact-info,
+.topbar .contact-info:last-child,
+.contact-font-icon .contact-info i{
+	border-color: #e9e9e9;
+}
+.topbar .contact-info{
+	padding: 0 20px;
+}
+.ccl.custom-color-scheme .topbar a{
+	color: #af2f2e;
+	font-weight: 600;
+}
+.ccl-client-login{
+	color: #444;
+	font-weight: 600 !important;
+	font-size: 12px !important;
+	text-transform: uppercase;
+}
+.ccl-client-login:hover{
+	color: #af2f2e !important;
+}
+.ccl-client-login.contact-info i{
+	margin-right: 10px;
+	padding: 0;
+	border: none;
+	width: auto;
+	height: auto;
+	color: #af2f2e;
+}
+
+
+.primary-nav .nav > li:last-child > a{
+	padding-right: 0;
+}
+
+/**
+ * CURRENT DESIGN EXPERIMENT
+ */
+.topbar-left .textwidget{
+	text-transform: uppercase;
+}
+.topbar-left .textwidget img{
+	margin-right: 10px;
+}
+.topbar .contact-info, .topbar .contact-info:last-child, .contact-font-icon .contact-info i{
+	border-color: #e9e9e9;
+	border: none;
+}
+.topbar{
+	font-weight: 500;
+	background: url("../../../../dnncontracting.ca/dnn-cms/images/header-background.jpg");
+	background-position: center top;
+}
+.topbar a:hover{
+	text-decoration: underline;
+}
+.topbar .contact-info{
+	font-size: 14px;
+}
+.ccl.custom-color-scheme .topbar a,
+.contact-font-icon .contact-info,
+.contact-font-icon .contact-info i{
+	font-weight: 500;
+}
+.contact-font-icon .contact-info i{
+	width: auto;
+	height: auto;
+	font-size: 16px;
+	border: none;
+	margin-right: 0;
+	margin-left: 8px;
+}
+.ccl-middot{
+	font-size: 22px;
+	float: left;
+	color: #888;
+	font-weight: 400;
+}
+.topbar .contact-info{
+	padding: 0 15px;
+}
+.ccl.custom-color-scheme .topbar,
+.contact-font-icon .contact-info,
+.contact-font-icon .contact-info i{
+	color: #444;
+}
+
+/**
+ * END CURRENT DESIGN
+ */
+
+
+
+/* Logo */
+.site-header .site-branding{
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 116px;
+}
+
+.header-right .login-icon{
+	-webkit-transition: .3s ease;
+	transition: .3s ease;
+	position: relative;
+	font-size: 35px;
+	font-weight: 700;
+	color: #261e4c;
+	text-decoration: none;
+	padding-bottom: 40px;
+}
+.ccl.custom-color-scheme .primary-nav .nav a{
+	color: #444;
+}
+.ccl.custom-color-scheme .primary-nav .dropdown-menu a{
+	color: #fff;
+}
+
+
+/* Page Title */
+.ccl .featured-title{
+	background-size: cover;
+	background-position: center 50%;
+}
+.ccl.page-id-2103 .featured-title{
+	background-position: center 25%;
+}
+.ccl.page-id-2100 .featured-title{
+	background-position: center 53%;
+}
+.ccl.page-id-2029 .featured-title{
+	background-position: center 25%;
+}
+.ccl .featured-title h1{
+	color: #fff;
+	font-size: 38px;
+	font-weight: 700;
+}
+.ccl .featured-title .subtitle{
+	font-size: 18px;
+	color: #eee;
+	font-weight: 300;
+	font-style: italic;
+	text-transform: none;
+}
+.ccl.custom-color-scheme .featured-title .strip-bg{
+	background-color: #000;
+}
+/*.ccl .featured-title h1{
+	position: absolute;
+	bottom: -170px;
+	padding-left: 15px;
+}
+.ccl .featured-title .subtitle{
+	display: none;
+}*/
+
+
+/**
+ * Homepage
+ */
+ .ccl-home-featured{
+	background-size: cover;
+	background-position: center;
+	-webkit-font-smoothing: antialiased;
+}
+.ccl-home-featured:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -10%;
+	left: -10%;
+	bottom: 1818px;
+	background: rgba(0,0,0,0.7);
+}
+.ccl-home-tagline{
+	padding: 100px 0;
+	text-align: center;
+}
+.ccl-home-tagline h5{
+	color: #fff !important;
+	font-style: italic;
+	letter-spacing: 2px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.ccl-home-tagline h2{
+	font-size: 58px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #fff !important;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.ccl-home-tagline ul{
+	padding: 0;
+	margin: 0;
+}
+.ccl-home-tagline li{
+	display: inline-block;
+	padding: 0 10px;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+/* Home services */
+.ccl-home-services{
+	background-position: center 45%;
+	background-size: cover;
+}
+.ccl-home-services .fitsc-bubble{
+	text-align: center;
+	cursor: pointer;
+}
+.ccl-home-services .fitsc-bubble .bubble-icon{
+	display: none;
+}
+.ccl-home-services .fitsc-bubble .bubble-text{
+	padding: 24px 0;
+	margin-left: 0;
+}
+.ccl-home-services .fitsc-bubble .bubble-text a{
+	color: #fff ;
+	padding-top: 20px;
+	
+
+}
+.ccl-home-services .fitsc-bubble:hover .bubble-text a{
+	color: #e4c6c6 ;
+}
+
+/* Home About Us */
+.ccl-home-about .fitsc-heading{
+	margin-bottom: 32px;
+	font-size: 30px;
+}
+.custom-color-scheme .fitsc-button.ghost:hover{
+	color: #fff;
+}
+
+/* Common button styles */
+.ccl-button {
+	display: inline-block;
+	margin: 0 15px 0 0;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.ccl-button:focus {
+	outline: none;
+}
+.ccl-button > span {
+	vertical-align: middle;
+}
+
+/* Home Projects */
+.ccl-projects .fitsc-heading{
+	margin-bottom: 32px;
+}
+.ccl-projects.row-background.row-background-black{
+	background-color: #2d2d2d;
+	background-image: url('../../uploads/2017/05/dark-bg.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: top left;
+}
+.ccl.custom-color-scheme .fitsc-portfolio figcaption a{
+	color: #fff;
+}
+.ccl-projects .fitsc-heading.fitsc-heading-underline{
+	margin-bottom: 32px;
+}
+.fitsc-portfolio .project{
+	cursor: pointer;
+}
+/*.fitsc-portfolio .project:hover figcaption h3{
+	color: #af2f2e;
+}*/
+.fitsc-portfolio .figure-image,
+.fitsc-portfolio figcaption{
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+.fitsc-portfolio .figure-image img{
+	display: block;
+}
+.fitsc-portfolio figcaption{
+	opacity: 1;
+	
+}
+.fitsc-portfolio figcaption a{
+	left: 0;
+	-webkit-transform: none;
+	transform: none;
+	height: 100%;
+	display: none;
+}
+.fitsc-portfolio figcaption:hover a{
+	opacity: 0;
+}
+.fitsc-portfolio figcaption h3{
+	font-size: 18px;
+	color: white;
+	text-transform: none;
+	bottom: 20px;
+	top: auto;
+	opacity: 1;
+	-webkit-transform: none!important;
+	-ms-transform: none!important;
+	transform: none!important;
+}
+.fitsc-portfolio figcaption:hover h3{
+	text-decoration: underline;
+}
+.fitsc-portfolio figcaption h3:after{
+	content: none;
+	
+}
+.ccl.custom-color-scheme .fitsc-portfolio figcaption{
+	top: auto;
+	background-color: rgba(0,0,0,0.75);
+	padding: 15px;
+}
+.fitsc-portfolio figcaption h3{
+	padding: 0;
+	position: static;
+}
+
+
+/* Our Services */
+.page-id-2100 .main{
+	padding-bottom: 0;
+}
+.ccl.custom-color-scheme .ccl-our-services h6{
+	color: #000;
+}
+.ccl-our-services .fitsc-heading.fitsc-heading-none{
+	margin-bottom: 32px;
+	color: #000;
+}
+.ccl-os-content-2 img{
+	margin-bottom: 12px;
+}
+.ccl-os-content-2 figcaption{
+	font-style: italic;
+	font-size: 14px;
+	text-align: center;
+}
+.ccl-services-list p:empty{
+	display: none;
+}
+.ccl-services-list h6{
+	font-weight: 600;
+}
+.ccl-services-list h6,
+.ccl-services-list p{
+	font-size: 15px;
+}
+.ccl-services-list li{
+	margin-bottom: 12px;
+}
+.ccl-services-list p{
+	text-align: center;
+}
+.ccl.custom-color-scheme .ccl-h-services-title{
+	color: #000;
+}
+
+/**
+ * PROJECTS PAGE
+ */
+.page-id-2049 .main{
+	padding-bottom: 0;
+}
+.post-2049 .ccl-cta-wrap{
+	margin-top: 0;
+}
+.ccl-projects article{
+	margin-bottom: 60px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.ccl-projects article:last-child{
+	border-bottom: none;
+}
+.post-format-share{
+	margin-top: 15px;
+}
+.ccl.custom-color-scheme .post-format-share .box-social-share{
+	background-color: #f8f9f9;
+}
+.ccl.custom-color-scheme .post-format-share .box-social-share:before{
+	border-bottom-color: #f8f9f9;
+}
+.post-format-share .box-social-share{
+	padding: 15px 23px;
+}
+.post-format-share li a{
+	color: #444;
+	font-size: 16px;
+}
+.post-format-share li a.share-facebook{ color: #3a579a !important }
+.post-format-share li a.share-twitter{ color: #00abf0 !important }
+.post-format-share li a.share-google-plus{ color: #EA4335 !important }
+.post-format-share li a.share-pinterest{ color: #cd1c1f !important }
+.post-format-share li a.share-linkedin{ color: #127bb6 !important }
+
+.ccl-projects .entry-title{
+	text-transform: none;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+.ccl.custom-color-scheme .ccl-projects .post-format-date{
+	background-color: #888;
+}
+
+/**
+ * SINGLE PROJECTS PAGE
+ */
+.single-portfolio .main{
+	padding-bottom: 0;
+}
+.single-portfolio .featured-title{
+	height: auto;
+}
+.single-portfolio .featured-title h1{
+	margin-bottom: 0;
+}
+
+
+/**
+ * CONTACT US
+ */
+.ct-contact-info{
+	color: #444;
+	font-weight: 500;
+}
+.ct-contact-info .ct-address label{
+	font-size: 16px;
+	font-weight: 500;
+	color: #444;
+	margin: 0;
+}
+.page-template-contact .ct-contact-info li .ct-address-1:nth-child(2){
+	display: inline;
+}
+.custom-color-scheme.page-template-contact .ct-map-cf .ct-cf input[type=submit]{
+	color: #fff !important;
+}
+.page-template-contact .ct-map-cf .ct-cf input, .page-template-contact .ct-map-cf .ct-cf textarea{
+	font-size: 14px;
+	color: #444;
+}
+.page-template-contact .ct-contact-info li .ct-span,
+.page-template-contact .ct-contact-info li .ct-address-1,
+.page-template-contact .ct-contact-info li .ct-address-2{
+	font-size: 16px;
+	text-transform: none;
+}
+.page-template-contact .ct-contact-info li .ct-address-1{
+	color: #af2f2e !important;
+	font-weight: 500;
+}
+.page-template-contact .ct-contact-info .ct-address:hover span{
+	text-decoration: underline;
+}
+.ccl.custom-color-scheme.page-template-contact .ct-contact-info{
+	background-color: #fff;
+}
+.page-template-contact .ct-contact-info li:before{
+	background: #e9e9e9;
+}
+.page-template-contact .ct-contact-info li .ct-span a{
+	font-weight: 500;
+}
+.page-template-contact .ct-contact-info li .ct-span a:hover{
+	color: #af2f2e;
+	text-decoration: underline;
+}
+.page-template-contact .ct-map-cf .ct-cf form{
+	font-size: 13px;
+	color: #261e4c;
+}
+.custom-color-scheme.page-template-contact .ct-map-cf .ct-cf input[type=submit]{
+	height: auto;
+	background-color: transparent !important;
+	color: #af2f2e !important;
+	width: auto;
+	padding: 0;
+	font-size: 15px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #fff;
+	transition: all 200ms;
+	border-radius: 0;
+}
+.custom-color-scheme.page-template-contact .ct-map-cf .ct-cf input[type=submit]:hover{
+	border-color: #af2f2e;
+}
+.page-template-contact .main > .container-fluid{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.page-template-contact .main > .container-fluid .site-content{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/**
+ * RAQ
+ */
+.page-id-2337 input,
+.page-id-2337 textarea{
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+.page-id-2337 .wpcf7-form{
+	max-width: 813px;
+	padding: 45px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.2);
+}
+.page-id-2337 label{
+	font-size: 16px;
+	font-weight: normal;
+}
+.page-id-2337 .ccl-upload-wrap{
+	display: block;
+	height: 44px;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.page-id-2337 .wpcf7-file{
+	display: inherit;
+	line-height: 1;
+	font-weight: 300;
+	color: #444;
+	padding: 0;
+	border: none;
+}
+
+.page-id-2337 .wpcf7-file::-ms-value,
+.page-id-2337 .wpcf7-file::-ms-browse{
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #444;
+	padding: 8px 12px;
+}
+
+.page-id-2337 .wpcf7-select,
+.page-id-2337 .wpcf7-text,
+.page-id-2337 .wpcf7-textarea{
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin-bottom: 20px;
+	line-height: 1.625;
+	width: 100%;
+	-webkit-transition: background-color 0.24s ease-in-out;
+	transition: background-color 0.24s ease-in-out;
+}
+.page-id-2337 .wpcf7 select{
+	height: 44px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.page-id-2337 .wpcf7 select,
+.page-id-2337 .wpcf7 select:focus{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAYCAYAAACMcW/9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1REUzN0NFNURCMjkxMUU1OEZCNUIwRDY0NjgzNEM1MCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1REUzN0NFNkRCMjkxMUU1OEZCNUIwRDY0NjgzNEM1MCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjVERTM3Q0UzREIyOTExRTU4RkI1QjBENjQ2ODM0QzUwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjVERTM3Q0U0REIyOTExRTU4RkI1QjBENjQ2ODM0QzUwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+6/JpowAAANVJREFUeNrMl9ENwjAMRKNTBmEERoBRugEbABPAb/46CiMwQkfoCLhSiipEIBDbvZMuH21iPyWOpcSUUhAdxbvAp7v4LB6jDBfxIXBq2ryteA9iyCXsZgIdAr9G5Bpg1mkG7cUdKWQ/byQWHzpCyCcTSj+YIF9BWWDfMqB24pqQJdC1YD/mxL8LPSG/gXrBVuWAViBLyFpQK9ifYsIqsHYsWCfQigGvRK1r4Ziw6TTgdITNJQOHelO5hDC+wWqdQgO0BHTV7L1RuYHf8qtxyE9dNT0EGACFATK3+5S5jgAAAABJRU5ErkJggg==);
+	background-size: 14px;
+	background-repeat: no-repeat;
+	background-position: right 17px center;
+	background-color: #fff;
+}
+.page-id-2337 .wpcf7-select,
+.page-id-2337 .wpcf7-text,
+.page-id-2337 .wpcf7-textarea{
+	border: 1px solid #ccc;
+	color: #444;
+	padding: 8px 12px;
+	font-size: 16px;
+}
+.page-id-2337 .wpcf7-select:focus,
+.page-id-2337 .wpcf7-text:focus,
+.page-id-2337 .wpcf7-textarea:focus{
+	background-color: #f7f8fa;
+	border-color: #ddd;
+}
+.page-id-2337 .wpcf7-submit{
+	float: right;
+	height: auto;
+	background-color: #af2f2e !important;
+	border: none;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 15px 30px;
+}
+.page-id-2337 .wpcf7-text::-webkit-input-placeholder,
+.page-id-2337 .wpcf7-textarea::-webkit-input-placeholder{
+	color: #999;
+}
+.page-id-2337 .wpcf7-textarea{
+	height: 232px;
+	margin-bottom: 0;
+}
+
+/**
+ * ABOUT
+ */
+.page-id-1986 .main{
+	padding-bottom: 0;
+}
+.ccl-single-about-points{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.icon-box.icon-left.icon-box-full i,
+.icon-box.icon-right.icon-box-full i{
+	display: none;
+}
+.icon-box.icon-box-full.icon-left h5,
+.icon-box.icon-box-full.icon-left .subtitle,
+.icon-box.icon-box-full.icon-left .content,
+.icon-box.icon-box-full.icon-left .read-more{
+	margin-left: 0;
+}
+.icon-box.icon-box-full.icon-left h5,
+.ccl.custom-color-scheme .icon-box.icon-left:hover h5,
+.ccl.custom-color-scheme .icon-box.icon-right:hover h5{
+	color: #fff;
+}
+.icon-box.icon-box-full.icon-left .subtitle{
+	color: #888;
+}
+.fitsc-team .team-members{
+	padding-top: 3px;
+}
+.fitsc-team .team-member:hover .member-info{
+	bottom: auto;
+}
+.ccl.custom-color-scheme .fitsc-team .member-info span,
+.fitsc-team .team-member:hover .member-info span{
+	color: #888;
+}
+.fitsc-team .member-info h5{
+	color: #fff !important;
+}
+.icon-box.icon-left.icon-box-full .content,
+.icon-box.icon-right.icon-box-full .content{
+	border-top: none;
+	padding-top: 0;
+}
+.icon-box.icon-left.icon-box-full .content:before,
+.icon-box.icon-right.icon-box-full .content:before{
+	content: none;
+}
+.icon-box.icon-left.icon-box-full .content{
+	color: #eee;
+}
+.icon-box.icon-left h5, .icon-box.icon-right h5{
+	font-size: 18px;
+}
+.icon-box .subtitle{
+	font-size: 14px;
+}
+.fitsc-team .member-bio{
+	display: none !important;
+}
+.custom-color-scheme .fitsc-team .member-info{
+	background: #2d2d2d url('../../uploads/2017/05/dark-bg.jpg');
+}
+.page-id-1986 .fitsc-heading.fitsc-heading-none{
+	margin-bottom: 32px;
+}
+.page-id-1986 .post-1986 img.alignleft{
+	margin-bottom: 32px;
+}
+
+/**
+ * CAREERS
+ */
+.ccl-job-listing a:hover{
+	text-decoration: underline;
+}
+.ccl-job-listing > h2{
+	font-size: 30px;
+	margin: 0 0 35px;
+	text-transform: uppercase;
+}
+.ccl-job-left{
+	width: 65%;
+	float: left;
+	border: 1px solid #f2f2f2;
+	border-left: 3px solid #dddddd;
+	padding: 40px 45px 15px;
+	transition: all 200ms ease-out;
+}
+.ccl-job-left:hover{
+	border-left-color: #af2f2e;
+}
+.ccl-job-title{
+	float: left;
+	margin: 0;
+	font-size: 24px;
+	line-height: 1.1;
+}
+.ccl-job-date{
+	float: right;
+	color: #ccc;
+	font-weight: bold;
+}
+.ccl-job-date{
+	font-size: 20px;
+	line-height: 1.1;
+}
+.ccl-job-content{
+	margin-top: 45px;
+	padding-top: 30px;
+	border-top: 1px solid #eee;
+	clear: both;
+}
+.ccl-job-content h4{
+	font-size: 20px;
+}
+.ccl-job-content ul{
+	margin-bottom: 2em;
+}
+.ccl-job-right{
+	width: 35%;
+	float: right;
+	background-color: #f2f2f2;
+    padding: 35px 45px;
+}
+.ccl-job-details-title{
+	margin: 0 0 25px;
+	font-size: 18px;
+	line-height: 1.1;
+}
+.ccl-job-details-item{
+	padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #dddddd;
+    font-size: 14px;
+}
+.ccl-job-details-item i{
+	font-size: 18px;
+	color: #666;
+}
+.ccl-job-details-item span{
+	margin-left: 15px;
+}
+
+
+
+/* CTA Button */
+.ccl-call-to-action{
+	padding: 45px 0;
+	line-height: 1;
+	overflow: hidden;
+}
+.ccl-cta-text{
+	float: left;
+}
+.ccl-cta-text h4{
+	margin-bottom: 0;
+	color: #444 !important;
+	line-height: 1;
+}
+.ccl-cta-button{
+	font-size: 24px;
+	color: #444;
+	float: right;
+}
+.ccl-cta-button .ccl-link:before{
+	bottom: -4px;
+}
+
+
+/**
+ * SEARCH PAGE
+ */
+.search #sidebar-blog{
+	display: none;
+}
+.search .page-header{
+	margin-top: 0;
+}
+.search .page-content{
+	text-align: left;
+}
+
+/**
+ * Footer
+ */
+.site-footer{
+	/*background-image: url('http://media.istockphoto.com/photos/white-brick-wall-picture-id531477604?s=2048x2048');
+	background-image: url('http://media.istockphoto.com/photos/architectural-drawings-13-picture-id182161099?s=2048x2048');
+	background-size: cover;
+	background-position: center;
+	background-image: url('http://i.istockimg.com/file_thumbview_approve/70397949/6/stock-illustration-70397949-canadian-leaf-pattern.jpg');
+	background-size: auto;
+	background-repeat: repeat;
+	background-position: top left;*/
+	background-image: url('../../uploads/2017/05/dark-bg.jpg');
+	background-size: auto;
+	background-repeat: repeat;
+	background-position: top left;
+}
+.ccl.custom-color-scheme .footer-sidebars{
+	background-color: transparent;
+}
+.footer-sidebars .footer-sidebars-bg,
+.footer-sidebars .footer-widgets:first-child{
+	background: transparent;
+}
+.footer-widgets .contact-font-icon .contact-info i{
+	border-color: #dedede;
+}
+.footer-sidebars .footer-widgets{
+	border-color: transparent;
+}
+.ccl.custom-color-scheme .footer-widgets .widget-title{
+	/*color: #2d2d2d;*/
+	font-weight: 600;
+}
+
+.footer-widgets .widget{
+	overflow: hidden;
+}
+.footer-widgets .widget li{
+	float: left;
+	width: 50%;
+	text-transform: none;
+}
+.custom-color-scheme .footer-widgets .widget li a{
+	color: #fff;
+}
+.site-footer,
+.footer-widgets .widget li,
+.site-footer .contact-font-icon .contact-info{
+	font-size: 14px;
+}
+.site-footer .contact-font-icon .contact-info{
+	color: #444;
+}
+
+.footer-widgets .widget li{
+	padding: 0;
+	border-bottom: none;
+}
+.footer-widgets .widget li:before{
+	content: none;
+}
+.ccl.custom-color-scheme .footer-text{
+	background-color: #454545;
+	color: #eee;
+}
+
+
+
+
+/**
+ * New Footer
+ */
+.site-footer{
+	padding: 40px 0;
+}
+.site-footer hr{
+	border-top-color: #444;
+	margin-top: 41px;
+	margin-bottom: 17px;
+}
+.custom-color-scheme .site-footer h3{
+	margin-top: 20px;
+	font-size: 18px;
+	color: #fff;
+}
+.site-footer .current-menu-item a{
+	color: #af2f2e !important;
+}
+
+
+.site-footer{
+	padding: 45px 0;
+	text-transform: uppercase;
+}
+.site-footer hr{
+	border-top-color: #444;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.custom-color-scheme .site-footer h3{
+	margin-top: 25px;
+	margin-bottom: 0;
+	font-size: 18px;
+	color: #fff;
+}
+#menu-footer-menu{
+	margin-top: 7px;
+}
+.site-footer .list-inline li{
+	padding-right: 15px;
+}
+.site-footer .form-control,
+.site-footer .fa-search.btn-default{
+	color: #999;
+	background-color: #555;
+	border-color: #555;
+}
+.site-footer .form-control,
+.site-footer .form-control:focus{
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.ccl-footer-social{
+	text-align:right;
+	margin-top: 15px;
+}
+.ccl-footer-social h3,
+.ccl-footer-social ul{
+	display: inline-block;
+}
+.ccl-footer-social h3{
+	margin-top: 0 !important;
+}
+.ccl-footer-social ul{
+	margin-left: 0;
+}
+.ccl-footer-social li{
+	padding-right: 0px !important;
+}
+.ccl-footer-social a{
+	width: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	background: #555;
+	text-align: center;
+}
+.ccl-footer-social a:hover{
+	color: #fff !important;
+	background-color: #af2f2e;
+}
+.copyright{
+	margin-top: 25px;
+}
+.copyright,
+.made-by{
+	color: #888;
+}
+.made-by,
+.copyright{
+	text-align: right;
+}
+
+
+
+.ccl-project-downloads{
+	font-size: 18px;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 22px;
+}
+.ccl-project-downloads li{
+	padding: 0 0 10px;
+}
+.ccl-project-dl-title{
+	margin-bottom: 32px;
+}
+.single-client_pages .featured-title{
+	background-position: center 60%;
+}
+
+/*
+FILE FORMAT ICONS
+by Greg Schoppe (http://gschoppe.com)
+USAGE: include FontAwesome on page, as shown on http://fontawesome.io
+       then include this css file, and target links by adding the link-icon
+       class.  Note: try to avoid or manually label links to websites, as that
+       detection code is necessarily janky. when in doubt, just end all external
+       links with a trailing slash (/), a query string (?), or a link target (#)
+*/
+a.link-icon:before,
+a.link-icon.link-file[href]:before {
+    content: "\f016"; /* generic file icon */
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    width: 20px;
+    text-align: right;
+    margin-right: 10px;
+}
+a[href$=".txt"].link-icon:before,
+a.link-icon.link-text[href]:before {
+    content: "\f0f6"; /*Text*/
+}
+a[href$=".pdf"].link-icon:before,
+a.link-icon.link-pdf[href]:before {
+    content: "\f1c1"; /*PDF*/
+}
+a[href$=".doc"].link-icon:before,
+a[href$=".docx"].link-icon:before,
+a.link-icon.link-word[href]:before {
+    content: "\f1c2"; /*Word*/
+}
+a[href$=".xls"].link-icon:before,
+a[href$=".xlsx"].link-icon:before,
+a.link-icon.link-excel[href]:before {
+    content: "\f1c3"; /*Excel*/
+}
+a[href$=".ppt"].link-icon:before,
+a[href$=".pptx"].link-icon:before,
+a.link-icon.link-powerpoint[href]:before {
+    content: "\f1c4"; /*Powerpoint*/
+}
+a[href$=".gif"].link-icon:before,
+a[href$=".jpg"].link-icon:before,
+a[href$=".jpeg"].link-icon:before,
+a[href$=".png"].link-icon:before,
+a[href$=".bmp"].link-icon:before,
+a[href$=".tif"].link-icon:before,
+a.link-icon.link-image[href]:before {
+    content: "\f1c5"; /*Image*/
+}
+a[href$=".zip"].link-icon:before,
+a[href$=".zipx"].link-icon:before,
+a[href$=".rar"].link-icon:before,
+a[href$=".tar"].link-icon:before,
+a[href$=".gz"].link-icon:before,
+a[href$=".dmg"].link-icon:before,
+a[href$=".iso"].link-icon:before,
+a.link-icon.link-archive[href]:before {
+    content: "\f1c6"; /*Archive*/
+}
+a[href$=".wav"].link-icon:before,
+a[href$=".mp3"].link-icon:before,
+a[href$=".fla"].link-icon:before,
+a[href$=".flac"].link-icon:before,
+a[href$=".ra"].link-icon:before,
+a[href$=".rma"].link-icon:before,
+a[href$=".aif"].link-icon:before,
+a[href$=".aiff"].link-icon:before,
+a[href$=".aa"].link-icon:before,
+a[href$=".aac"].link-icon:before,
+a[href$=".aax"].link-icon:before,
+a[href$=".ac3"].link-icon:before,
+a[href$=".au"].link-icon:before,
+a[href$=".ogg"].link-icon:before,
+a[href$=".avr"].link-icon:before,
+a[href$=".3ga"].link-icon:before,
+a[href$=".flac"].link-icon:before,
+a[href$=".mid"].link-icon:before,
+a[href$=".midi"].link-icon:before,
+a[href$=".m4a"].link-icon:before,
+a[href$=".mp4a"].link-icon:before,
+a[href$=".amz"].link-icon:before,
+a[href$=".mka"].link-icon:before,
+a[href$=".asx"].link-icon:before,
+a[href$=".pcm"].link-icon:before,
+a[href$=".m3u"].link-icon:before,
+a[href$=".wma"].link-icon:before,
+a[href$=".xwma"].link-icon:before,
+a.link-icon.link-audio[href]:before {
+    content: "\f1c7"; /*Audio*/
+}
+a[href$=".avi"].link-icon:before,
+a[href$=".mpg"].link-icon:before,
+a[href$=".mp4"].link-icon:before,
+a[href$=".mkv"].link-icon:before,
+a[href$=".mov"].link-icon:before,
+a[href$=".wmv"].link-icon:before,
+a[href$=".vp6"].link-icon:before,
+a[href$=".264"].link-icon:before,
+a[href$=".vid"].link-icon:before,
+a[href$=".rv"].link-icon:before,
+a[href$=".webm"].link-icon:before,
+a[href$=".swf"].link-icon:before,
+a[href$=".h264"].link-icon:before,
+a[href$=".flv"].link-icon:before,
+a[href$=".mk3d"].link-icon:before,
+a[href$=".gifv"].link-icon:before,
+a[href$=".oggv"].link-icon:before,
+a[href$=".3gp"].link-icon:before,
+a[href$=".m4v"].link-icon:before,
+a[href$=".movie"].link-icon:before,
+a[href$=".divx"].link-icon:before,
+a.link-icon.link-video[href]:before {
+    content: "\f1c8"; /*Video*/
+}
+a[href$=".css"].link-icon:before,
+a[href$=".js"].link-icon:before,
+a[href$=".py"].link-icon:before,
+a[href$=".git"].link-icon:before,
+a[href$=".py"].link-icon:before,
+a[href$=".cpp"].link-icon:before,
+a[href$=".h"].link-icon:before,
+a[href$=".ini"].link-icon:before,
+a[href$=".config"].link-icon:before,
+a.link-icon.link-code[href]:before {
+    content: "\f1c9"; /*code*/
+}
+a[href$=".exe"].link-icon:before,
+a[href$=".jar"].link-icon:before,
+a[href$=".dll"].link-icon:before,
+a[href$=".bat"].link-icon:before,
+a[href$=".pl"].link-icon:before,
+a[href$=".scr"].link-icon:before,
+a[href$=".msi"].link-icon:before,
+a[href$=".app"].link-icon:before,
+a[href$=".deb"].link-icon:before,
+a[href$=".apk"].link-icon:before,
+a[href$=".jar"].link-icon:before,
+a[href$=".vb"].link-icon:before,
+a[href$=".prg"].link-icon:before,
+a[href$=".sh"].link-icon:before,
+a.link-icon.link-exe[href]:before {
+    content: "\f085"; /*Executable*/
+}
+
+a[href$=".com"].link-icon:before,
+a[href$=".net"].link-icon:before,
+a[href$=".org"].link-icon:before,
+a[href$=".edu"].link-icon:before,
+a[href$=".gov"].link-icon:before,
+a[href$=".mil"].link-icon:before,
+a[href$="/"].link-icon:before,
+a[href$=".html"].link-icon:before,
+a[href$=".htm"].link-icon:before,
+a[href$=".xhtml"].link-icon:before,
+a[href$=".jhtml"].link-icon:before,
+a[href$=".php"].link-icon:before,
+a[href$=".php3"].link-icon:before,
+a[href$=".php4"].link-icon:before,
+a[href$=".php5"].link-icon:before,
+a[href$=".phtml"].link-icon:before,
+a[href$=".asp"].link-icon:before,
+a[href$=".aspx"].link-icon:before,
+a[href$=".cfm"].link-icon:before,
+a[href*="?"].link-icon:before,
+a[href*="#"].link-icon:before,
+a.link-icon:not([href*='.']):before,
+a.link-icon.link[href]:before {
+    content: "\f0c1"; /*link*/
+}

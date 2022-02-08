@@ -1,0 +1,94 @@
+/** Widget Recent Posts
+----------------------------------------------------------------------*/
+.fitwp-recent-posts-widget .fitwp-recent-post,
+.fitwp-recent-posts-widget .fitwp-popular-post {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.fitwp-recent-posts-widget .fitwp-recent-post:last-child,
+.fitwp-recent-posts-widget .fitwp-popular-post:last-child {
+	border-bottom: 0;
+}
+
+.fitwp-recent-posts-widget .fitwp-thumb {
+	float: left;
+	width: 60px;
+}
+
+.fitwp-recent-posts-widget .fitwp-text {
+	margin-left: 75px;
+}
+
+.fitwp-recent-posts-widget .fitwp-title {
+	display: block;
+}
+
+.fitwp-recent-posts-widget .fitwp-date {
+	font-size: smaller;
+	font-style: italic;
+}
+
+
+/** Widget Tabs
+----------------------------------------------------------------------*/
+.fitwp-tabs {
+
+}
+
+.fitwp-tabs-nav {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.fitwp-tabs-nav li {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	width: 33.33%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background: #ddd;
+}
+
+.fitwp-tabs-nav li.fitwp-active {
+	background: #fff;
+}
+
+.fitwp-tabs-nav li a {
+	display: block;
+	padding: 5px 10px;
+}
+
+.fitwp-tabs-content {
+	clear: both;
+	border: 0;
+	padding: 0;
+}
+
+.fitwp-tab {
+	display: none;
+}
+
+.fitwp-tab.fitwp-active {
+	-webkit-animation: fadeIn 1 1s ease;
+	-moz-animation: fadeIn 1 1s ease;
+	animation: fadeIn 1 1s ease;
+	display: block;
+}
+
+/** Widget Flickr
+----------------------------------------------------------------------*/
+
+.fitwp-flickr-photos {
+	overflow: hidden;
+}
+
+.fitwp-flickr-photos .flickr_badge_image {
+	float: left;
+	margin: 0 5px 5px 0;
+}
